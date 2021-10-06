@@ -319,5 +319,24 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-
+    .footer-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+/* .footer-icons{
+    display: flex;
+    flex-direction: column;
+} */
+.footer-col-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.col-2{
+    color: black;
+}
+.button{
+    width:50px
+}
 }
