@@ -86,6 +86,7 @@ body {
   justify-content: space-between;
   position: relative;
   z-index: -1;
+  /* border: 2px solid  red; */
 }
 .outer {
   display: flex;
@@ -127,6 +128,7 @@ body {
   position: absolute;
   top: -250px;
   right:-300px
+  /* z-index: -1; */
 }
 #overlap-img {
   position: absolute;
@@ -162,6 +164,7 @@ body {
   font-weight: normal;
 }
 .why-choose p {
+  /* padding: 20px; */
   color: hsl(0, 2%, 58%);
   font-size: 18px;
 }
@@ -177,6 +180,7 @@ body {
   height: 300px;
   flex-direction: column;
   align-items: flex-start;
+  /* white-space: pre-line; */
 }
 .online-banking h3 {
   color: hsl(0, 1%, 34%);
@@ -197,14 +201,17 @@ body {
   width: 100%;
   height: 710px;
   background-color: hsl(0, 0%, 98%);
+  /* justify-content: center; */
   flex-direction: column;
   justify-content: space-evenly;
+  /* border: 2px solid red; */
 }
 .articles-1 {
   display: flex;
   width: 90%;
   flex-direction: column;
   align-self: flex-end;
+  /* border: 2px solid orange; */
 }
 .articles-1 h3 {
   font-size: 50px;
@@ -214,6 +221,7 @@ body {
 .art-images {
   display: flex;
   width: 80%;
+  /* border: 2px solid yellow; */
   align-self: center;
   justify-content: space-between;
 }
@@ -222,6 +230,7 @@ body {
   width: 23%;
   flex-direction: column;
   background-color: white;
+  /* border: 2px solid blue; */
 }
 .art-pics {
   height: 200px;
@@ -232,6 +241,7 @@ body {
   width: 80%;
   height: 100%;
   flex-direction: column;
+  /* border: 2px solid red; */
   align-self: center;
 }
 .content-pics h5 {
@@ -357,6 +367,7 @@ body {
 .btn{
   margin-top: 50px;
 }
+  
 .image-backgnd{
   width: 100%;  
   height: 700px;  
